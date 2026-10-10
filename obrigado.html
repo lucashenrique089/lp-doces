@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado! | Doce Renda</title>
+    <!-- Página de obrigado não deve aparecer no Google -->
+    <meta name="robots" content="noindex">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+    <!-- [ITEM 3] GA4 + Pixel da Meta aqui, disparando o evento de conversão:
+         fbq('track', 'Lead');
+         gtag('event', 'generate_lead');  -->
+
+    <style>
+        :root { --choc-dark:#3E2723; --choc-light:#5D4037; --cream-bg:#FFF8E1; --pink-accent:#E91E63; --white:#FFFFFF; }
+        * { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins', sans-serif; }
+        body { background:var(--cream-bg); color:var(--choc-dark); min-height:100vh; display:flex; align-items:center; justify-content:center; padding:20px; }
+        .box { background:var(--white); max-width:560px; width:100%; padding:40px 30px; border-radius:16px; text-align:center; border-top:6px solid var(--pink-accent); box-shadow:0 20px 40px rgba(62,39,35,0.08); }
+        .emoji { font-size:56px; margin-bottom:10px; }
+        h1 { font-size:28px; font-weight:900; margin-bottom:15px; }
+        p { color:var(--choc-light); margin-bottom:25px; line-height:1.6; }
+        .btn { display:inline-block; background:var(--pink-accent); color:var(--white); text-decoration:none; padding:16px 32px; border-radius:8px; font-weight:800; text-transform:uppercase; }
+        small { display:block; margin-top:20px; color:#888; font-size:13px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="emoji">🎉</div>
+        <h1>Prontinho! Seu guia está a caminho</h1>
+        <p>Enviamos o Guia Gratuito para o seu e-mail. Se não encontrar em alguns minutos, confira a caixa de spam ou promoções.</p>
+        <!-- Troque o href pelo link do PDF do guia -->
+        <a href="#" class="btn">Baixar o guia agora</a>
+        <small>Dica: adicione nosso e-mail aos contatos para não perder as próximas receitas.</small>
+    </div>
+</body>
+</html>
